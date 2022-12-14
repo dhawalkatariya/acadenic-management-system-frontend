@@ -1,0 +1,121 @@
+@import "https://fonts.google.com/css?family=Roboto";
+body {
+  font-family: "Roboto";
+}
+.shadow-md {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+.question-false {
+  border-left: 6px solid #dc3545;
+}
+.question-true {
+  border-left: 6px solid #28a745;
+}
+.bg-navbar {
+  background-color: #212738;
+}
+button.navbar-toggler {
+  border: none;
+}
+.create-class {
+  color: white;
+  background-color: #657ed4;
+  border-color: #657ed4;
+}
+.create-class:hover {
+  color: white;
+  background-color: #7188d7;
+  border-color: #7188d7;
+}
+.badge-bg {
+  background-color: #4f4789;
+}
+.join-class {
+  color: white;
+  background-color: #4f4789;
+  border-color: #4f4789;
+}
+.join-class:hover {
+  color: white;
+  background-color: #584f98;
+  border-color: #584f98;
+}
+.nav-pills a {
+  color: #4f4789;
+}
+.nav-pills .nav-link.active {
+  background-color: #4f4789;
+  color: white;
+}
+.info-tile {
+  color: white;
+  background-color: #f97068;
+}
+.class-tile {
+  background-color: #f5f8f7;
+}
+.class-tile a {
+  text-decoration: none;
+}
+.btn-url {
+  background-color: #ffd868;
+  border-color: #ffd868;
+}
+.btn-url:hover {
+  background-color: #ffdd7e;
+  border-color: #ffdd7e;
+}
+.btn-download {
+  background-color: #fcbf59;
+  border-color: #fcbf59;
+}
+.btn-download:hover {
+  background-color: #fcc871;
+  border-color: #fcc871;
+}
+.badge {
+  font-weight: 400;
+}
+.inp-btn {
+  min-width: 84px;
+}
+.solved-assignment {
+  flex: 1;
+  padding: 0.5rem 1rem;
+}
+.unsolved-assignment {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border-radius: inherit;
+  border-left: 10px solid #dc3545;
+}
+.solved-section {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #28a745;
+  color: white;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  align-items: center;
+}
+.solved-section h2 {
+  margin: 0;
+  padding: 0 1rem;
+}
+.solved-section h2:first-child {
+  border-bottom: 1px solid white;
+}
+.solved-section h2:nth-child(2) {
+  border-top: 1px solid white;
+}
+.flex-direction-row {
+  flex-direction: row;
+}
+.span-a {
+  cursor: pointer;
+  text-decoration: underline;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
